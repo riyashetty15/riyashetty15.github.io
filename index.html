@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>No Crime Zone</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .correlation{
+            width: 120%; 
+            height: 120%; 
+            object-fit: contain;
+        }
+                    .other{
+            width: 50%; 
+            height: 30%; 
+            object-fit: contain;
+        }
+                    .r2{
+            width: 80%; 
+            height: 30%; 
+            object-fit: contain;
+        }
+        {
+            box-sizing: border-box;
+        }
+                    /* Set additional styling options for the columns*/
+        .column {
+            float: left;
+            width: 30%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+                    
+          </style> 
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">No Crime Zone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">Project Description</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Visualizations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Team Members</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">No Crime Zone</h1>
+                <p class="lead">A project for the Crime Rate in the US Investigation</p>
+                <a class="btn btn-lg btn-light" href="#about">Let's Explore</a>
+            </div>
+        </header>
+        <!-- About section-->
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>A Brief Description</h2>
+                        <p class="lead">To comprehend crime patterns and types of crimes, we have looked into several earlier publications
+                            that used various visualization methods to depict crime data throughout the US. There are two
+                            primary categories for reports on violent and property crimes. Violent crimes include assaults,
+                            murders, rapes, and robberies, whereas property crimes include burglaries, robberies, and crimes
+                            involving motor vehicles.</p>
+                        <p class = "lead">The main motivation of this project is to understand what
+                            factors contributed to this sudden increase in crime rate and to identify what kinds of crimes are
+                            more prevalent in the US.
+                        </p>
+                        <p class = "lead">
+                            <strong>Technologies / Libraries Used: </strong> Seaborn, Plotly, Matplotlib, Python, HTML
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Visualizations</h2>
+                        <div align = "center">
+                        <div class = "row">
+                            <p class="lead" align = "center">Let's look at some visualizations</p>
+                            <div class = "column">
+                                <h4>US Crime Data</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="avg_crime_density.html">visualization - 1</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="burglary.html">visualization - 2</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="property_crime.html">visualization - 3</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="violent_crime.html">visualization - 4</a>
+                            </div>
+                            <div class = "column">
+                                <h4>Los Angeles</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crimestatus_la.html">visualization - 1</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_la.html">visualization - 2</a>
+                                <br>
+                                <br>
+                                <h4>Chicago</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crimepd_chicago.html">visualization - 1</a>
+                                <br>
+                                <br>
+                                <h4>San Francisco</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_sf.html">visualization - 1</a>
+                                <br>
+                                <br>
+                                <h4>New York</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_nyc.html">visualization - 1</a>
+                            </div>
+                            <div class = "column">
+                                <h4>Bloomington City</p>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="all_crimes.html">visualization - 1</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_1.html">visualization - 2</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_2.html">visualization - 3</a>
+                                <br>
+                                <br>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_3.html">visualization - 4</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="contact">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Meet the Team Members</h2>
+                        <p class="lead">Riya Shetty</p>
+                        <p class="lead">Akhila Sakhiramolla</p>
+                        <p class="lead">Raksha Rank</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; No Crime Zone</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
