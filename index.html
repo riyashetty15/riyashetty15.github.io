@@ -52,6 +52,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">Project Description</a></li>
                         <li class="nav-item"><a class="nav-link" href="#services">Visualizations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#insights">Insights and Analysis</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Team Members</a></li>
                     </ul>
                 </div>
@@ -76,8 +77,22 @@
                             factors contributed to this sudden increase in crime rate and to identify what kinds of crimes are
                             more prevalent in the US.
                         </p>
+                        <h4>Questions we aim to answer:</h4>
                         <p class = "lead">
-                            <strong>Technologies / Libraries Used: </strong> Seaborn, Plotly, Matplotlib, Python, HTML
+                        What is the overall crime scenario in the United States? Which states and cities have the highest crime rates?
+                        Which are the highly impactful crimes that have the highest number across different states and cities in the US?
+                        Is there any specific time of the week, or day in which most of the crimes have occurred?
+                        Is there any specific criminal idealogy involved in committing the specific crimes?
+                        </p>
+                        <p class = "lead">
+                            <strong>Technologies / Libraries Used: </strong> Seaborn, Plotly, Matplotlib, Python, HTML, Jupyter Notebook.
+                        </p>
+                        <p class = "lead">
+                        <h4>Data:</h4> 
+                        To understand the trends, we retrieved state-level and cities level crime data 
+                        from various Government sources including the FBI’s crime data, respective cities police department 
+                        data, which consists of information like year, state, population, and a number of occurrences of different crimes. 
+                        Some of the categories of crimes include violent crimes, property crimes, burglary, larceny, homicide, rape, robbery, etc.
                         </p>
                     </div>
                 </div>
@@ -97,32 +112,29 @@
                                 <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="avg_crime_density.html">visualization - 1</a>
                                 <br>
                                 <br>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="burglary.html">visualization - 2</a>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="violent_crime.html">visualization - 2</a>
                                 <br>
                                 <br>
                                 <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="property_crime.html">visualization - 3</a>
                                 <br>
                                 <br>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="violent_crime.html">visualization - 4</a>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="burglary.html">visualization - 4</a>
                             </div>
                             <div class = "column">
                                 <h4>Los Angeles</h4>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crimestatus_la.html">visualization - 1</a>
-                                <br>
-                                <br>
                                 <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_la.html">visualization - 2</a>
                                 <br>
                                 <br>
-                                <h4>Chicago</h4>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crimepd_chicago.html">visualization - 1</a>
+                                <h4>New York</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_nyc.html">visualization - 1</a>
                                 <br>
                                 <br>
                                 <h4>San Francisco</h4>
                                 <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_sf.html">visualization - 1</a>
                                 <br>
                                 <br>
-                                <h4>New York</h4>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="treemap_nyc.html">visualization - 1</a>
+                                <h4>Chicago</h4>
+                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crimepd_chicago.html">visualization - 1</a>
                             </div>
                             <div class = "column">
                                 <h4>Bloomington City</p>
@@ -130,15 +142,35 @@
                                 <br>
                                 <br>
                                 <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_1.html">visualization - 2</a>
-                                <br>
-                                <br>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_2.html">visualization - 3</a>
-                                <br>
-                                <br>
-                                <a class="btn btn-lg btn-light bg-gradient" style="background-color:white; border-color:black" href="crime_categories_3.html">visualization - 4</a>
                             </div>
                         </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Insights -->
+        <section id="insights">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Insights and Analysis</h2>
+                        <p class="lead">
+                        <h4>Insights for the US data:</h4>
+                        <p>On an overall level, we observed that the crime rate decreased from 2017 but increased sharply again in 2020 for crimes like violent crimes. This supports our argument that the crime rate has increased during the pandemic period.</p>
+                        <br>
+                        <br>
+                        <h4>Insights for the Cities data:</h4>
+                        <p>It can be concluded that the highly metropolitan cities have the highest crime rates, this maybe because of the high unemployment rates in these regions.
+                        There can be seen a rise in the crime rates from the year 2020, due to the given covid situation where people lost their jobs and survival was their first instinct.
+                        The crimes were almost consistently the same on almost all days of the week. 
+                        When we looked up the location with the crime rates in each of these cities, we understood that these places had the most residences, tourist attractions, street-side foods, etc. Hence, it can be concluded that since these places were tourist attractions, they attracted more criminals as well.</p>
+                        <br>
+                        <br>
+                        <h4>Insights for the Bloomington data:</h4>
+                        <p>We observe more or less consistent crime rates throughout the year from 2006 to 2016 with a sudden drastic increase in the crime rate in 2017 and 2018. It seems very unreasonable for such a drastic increase and it might be the case that some changes in the system were brought into place and a lot more cases were reported.
+                        Most of the crimes show a consistent decrease over the years except Violent crimes and Aggravated Assault.</p>
+                        </p>
                     </div>
                 </div>
             </div>
